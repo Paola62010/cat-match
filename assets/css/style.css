@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Hachi Maru Pop", sans-serif;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+p {
+    padding: 1.5rem;
+}
+
+.head-icons {
+    font-size: 3rem;
+    color: #60BFC1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.main-section {
+
+    text-align: center;
+    background-image: url(../images/rainbow-bg.jpg);
+    background-color: aquamarine;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-selection {
+    padding: 6rem;
+}
+
+.card-selection div {
+    padding: 2rem;
+}
+
+.card-selection a {
+    background-color: white;
+    border-radius: 30px;
+    padding: 1rem 2em;
+    border: 2px solid mediumpurple;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+footer a {
+    color: #60BFC1;
+}
