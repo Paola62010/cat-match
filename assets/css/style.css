@@ -32,6 +32,7 @@ p {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 3rem;
 }
@@ -61,6 +62,14 @@ header {
     border: 2px solid mediumpurple;
 }
 
+.fun-facts {
+    padding: 0 0 3rem 0;
+}
+
+.fun-facts h3, li {
+    padding: 1.5rem;
+}
+
 footer {
     text-align: center;
     padding: 1.5rem;
@@ -68,4 +77,11 @@ footer {
 
 footer a {
     color: #60BFC1;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card-selection {
+        padding: 3rem 0;
+    }
 }
