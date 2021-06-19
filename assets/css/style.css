@@ -37,7 +37,9 @@ header {
     padding: 3rem;
 }
 
-.main-section {
+/* Home page */
+
+.main-section, .wrapper {
 
     text-align: center;
     background-image: url(../images/rainbow-bg.jpg);
@@ -83,6 +85,56 @@ footer {
 
 footer a {
     color: #60BFC1;
+}
+
+/* Cards */
+
+.memory-game {
+	width: 640px;
+	height: 640px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	perspective: 1000px;
+    align-items: center;
+}
+
+.memory-card {
+	min-width: 0;
+	flex-basis: calc(25% - 10px);
+	position: relative;
+	margin: 5px;
+	transition: transform .3s;
+	transform-style: preserve-3d;
+    height: 25%;
+}
+
+
+.memory-card:active {
+	transform: scale(95%);
+}
+
+.memory-card.flip {
+	transform: rotateY(180deg);
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.front-face,
+.back-face {
+	position: absolute;
+	border-radius: 10px;
+	background-color: white;
+	padding: 5px;
+	backface-visibility: hidden;
+    display: block;
+}
+
+.front-face {
+	transform: rotateY(180deg);
 }
 
 
