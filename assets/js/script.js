@@ -42,8 +42,13 @@ function disableCard() {
     resetBoard();
 }
 
-function unflipCard {
-
+function unflipCard() {
+    lock = true;
+    setTimeout(() =>{
+    cardOne.classList.remove("flip");
+    cardTwo.classList.remove("flip");
+    resetBoard();
+}, 1500);
 }
 
 function resetBoard {
