@@ -209,6 +209,7 @@ img {
 
     h2, h3 {
         font-size: 1.3rem;
+        padding: 1.5rem;
     
     }
 
@@ -223,6 +224,10 @@ img {
 
     .wrapper {
         padding: 2rem 0;
+    }
+
+    .card-selection {
+        padding: 1.5rem 0;
     }
 
 }
