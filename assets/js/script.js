@@ -51,6 +51,9 @@ function unflipCard() {
 }, 1500);
 }
 
-function resetBoard {
-
+function resetBoard() {
+    lock = false;
+    unflippedCard = true;
+    cardOne = null;
+    cardTwo = null;
 }
