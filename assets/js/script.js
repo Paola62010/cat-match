@@ -26,8 +26,14 @@ function flipCard() {
 
 }
 
-function checkMatches {
-
+function checkMatches() {
+    let match = cardOne.dataset.name === cardTwo.dataset.name;
+    if (match) {
+        disableCard();
+    }
+    else {
+        unflipCard();
+    }
 }
 
 function disableCards {
