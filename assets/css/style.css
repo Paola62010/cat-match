@@ -34,7 +34,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 /* Home page */
@@ -89,6 +89,10 @@ footer a {
 
 /* Cards */
 
+.wrapper {
+    padding: 6rem 0;
+}
+
 .memory-game {
 	width: 640px;
 	height: 640px;
@@ -96,8 +100,14 @@ footer a {
 	flex-wrap: wrap;
 	margin: auto;
 	perspective: 1000px;
-    align-items: center;
+    align-content: flex-start;
 }
+
+.cards20-board {
+    width: 800px;
+	height: 800px;
+}
+
 
 .memory-card {
 	min-width: 0;
@@ -106,9 +116,13 @@ footer a {
 	margin: 5px;
 	transition: transform .3s;
 	transform-style: preserve-3d;
-    height: 25%;
+    height: calc(25% - 10px);
 }
 
+.twenty-cards {
+    flex-basis: calc(20% - 10px);
+    height: calc(20% - 10px);
+}
 
 .memory-card:active {
 	transform: scale(95%);
@@ -137,9 +151,78 @@ img {
 	transform: rotateY(180deg);
 }
 
+@media only screen and (max-width: 850px) {
+    .cards20-board {
+        width: 640px;
+        height: 640px;
+    }
 
-@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 700px) {
+
+    body {
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2, h3 {
+        font-size: 1.5rem;
+    
+    }
+
+    p {
+        padding: 1rem;
+    }
+
+    .head-icons {
+        font-size: 2rem;
+    }
+
     .card-selection {
         padding: 3rem 0;
     }
+
+    .memory-game {
+        width: 440px;
+        height: 440px;
+    }
+
+    .wrapper {
+        padding: 3rem 0;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2, h3 {
+        font-size: 1.3rem;
+    
+    }
+
+    .head-icons {
+        font-size: 1.5rem;
+    }
+
+    .memory-game {
+        width: 300px;
+        height: 300px;
+    }
+
+    .wrapper {
+        padding: 2rem 0;
+    }
+
 }
