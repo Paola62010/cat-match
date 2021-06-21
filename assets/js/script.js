@@ -36,8 +36,10 @@ function checkMatches() {
     }
 }
 
-function disableCards {
-
+function disableCard() {
+    cardOne.removeEventListener("click", flipCard);
+    cardTwo.removeEventListener("click", flipCard);
+    resetBoard();
 }
 
 function unflipCard {
