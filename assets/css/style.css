@@ -30,6 +30,10 @@ p {
     color: #60BFC1;
 }
 
+.head-icons i:hover {
+    color: #af93eb;
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -64,7 +68,7 @@ header {
     border: 2px solid #af93eb;
 }
 
-.card-selection a:active {
+.card-selection a:hover {
     background-color: #af93eb;
     color: white;
     border: 2px solid white;
@@ -85,6 +89,10 @@ footer {
 
 footer a {
     color: #60BFC1;
+}
+
+footer a:hover {
+    color: #af93eb;
 }
 
 /* Cards */

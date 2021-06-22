@@ -57,3 +57,12 @@ function resetBoard() {
     cardOne = null;
     cardTwo = null;
 }
+
+window.onload = shuffleCards()
+
+function shuffleCards() {
+    for (let card of cards) {
+        let position = Math.floor(Math.random()*12);
+        card.style.order = position;
+    }
+}
