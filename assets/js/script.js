@@ -98,3 +98,15 @@ myForm.addEventListener("submit", function(event) {
     thanks.classList.add("show");
     myForm.classList.add("hide");
 })
+
+//contact form modal popup
+
+let openRules = document.getElementById("open-rules");
+openRules.addEventListener("click", function(){
+    document.getElementById("game-rules").classList.add("show");
+})
+
+let closeRules = document.getElementById("close-rules");
+closeRules.addEventListener("click", function(){
+    document.getElementById("game-rules").classList.remove("show");
+})
