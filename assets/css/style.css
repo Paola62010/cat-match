@@ -218,6 +218,22 @@ form input[type="submit"] {
     top: 20px;
   }
 
+  #thank-you {
+      opacity: 0;
+      pointer-events: none;
+      position: absolute;
+      top: 40%;
+  }
+
+  #thank-you.show{
+      opacity: 1;
+      pointer-events: auto;
+  }
+
+  #contact-form.hide {
+      opacity: 0;
+  }
+
 @media only screen and (max-width: 850px) {
     .cards20-board {
         width: 640px;

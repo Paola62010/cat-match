@@ -82,9 +82,19 @@ let message = document.getElementById("message")
 let closeContact = document.getElementById("close-contact");
 closeContact.addEventListener("click", function() {
     document.getElementById("contact-popup").classList.remove("show");
+    thanks.classList.remove("show");
+    myForm.classList.remove("hide");
     firstName.value = "";
     lastName.value = "";
     emailAddress.value = "";
     message.value = "";
 })
 
+let myForm = document.getElementById("contact-form")
+let thanks = document.getElementById("thank-you");
+myForm.addEventListener("submit", function(event) {
+  
+    event.preventDefault();
+    thanks.classList.add("show");
+    myForm.classList.add("hide");
+})
