@@ -66,3 +66,15 @@ function shuffleCards() {
         card.style.order = position;
     }
 }
+
+
+let openContact = document.getElementById("contact-us");
+openContact.addEventListener("click", function() {
+  document.getElementById("contact-popup").classList.add("show");
+})
+
+let closeContact = document.getElementById("close-contact");
+closeContact.addEventListener("click", function() {
+    document.getElementById("contact-popup").classList.remove("show");
+})
+
