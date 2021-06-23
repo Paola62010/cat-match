@@ -195,7 +195,7 @@ form input, textarea {
     font-family: inherit;
     margin: 0.5rem;
     padding: 0.5rem 1.5rem;
-    width: 300px;
+    width: 400px;
 }
 
 form input:focus, textarea:focus {
@@ -262,6 +262,10 @@ form input[type="submit"] {
         padding: 3rem 0;
     }
 
+    .w3-container {
+        width: 90vw;
+    }
+
 }
 
 @media only screen and (max-width: 450px) {
@@ -297,4 +301,11 @@ form input[type="submit"] {
         padding: 1.5rem 0;
     }
 
+    .w3-container {
+        padding: 1.5rem;
+    }
+
+    form input, textarea {
+        width: 200px;
+    }
 }
