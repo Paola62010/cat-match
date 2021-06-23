@@ -223,6 +223,8 @@ form input[type="submit"] {
       pointer-events: none;
       position: absolute;
       top: 40%;
+      left: 0;
+      right: 0;
   }
 
   #thank-you.show{
