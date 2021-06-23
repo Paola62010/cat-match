@@ -67,14 +67,24 @@ function shuffleCards() {
     }
 }
 
+//contact form modal popup
 
 let openContact = document.getElementById("contact-us");
 openContact.addEventListener("click", function() {
   document.getElementById("contact-popup").classList.add("show");
 })
 
+let firstName = document.getElementById("fname");
+let lastName = document.getElementById("lname");
+let emailAddress = document.getElementById("email");
+let message = document.getElementById("message")
+
 let closeContact = document.getElementById("close-contact");
 closeContact.addEventListener("click", function() {
     document.getElementById("contact-popup").classList.remove("show");
+    firstName.value = "";
+    lastName.value = "";
+    emailAddress.value = "";
+    message.value = "";
 })
 
