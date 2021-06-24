@@ -21,7 +21,7 @@ h2 {
     padding: 3rem;
 }
 
-p {
+p, h3 {
     padding: 1.5rem;
 }
 
@@ -292,7 +292,7 @@ form input[type="submit"] {
     
     }
 
-    p {
+    p, h3 {
         padding: 1rem;
     }
 
