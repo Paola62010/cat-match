@@ -1,3 +1,5 @@
+//card game
+
 let cards = document.getElementsByClassName("memory-card");
 let unflippedCard = true;
 let lock = false;
@@ -30,6 +32,8 @@ function checkMatches() {
     let match = cardOne.dataset.name === cardTwo.dataset.name;
     if (match) {
         disableCard();
+        cardsWon.push(cardOne, cardTwo); //add cards won
+        gameComplete();
     }
     else {
         unflipCard();
@@ -65,6 +69,14 @@ function shuffleCards() {
         let position = Math.floor(Math.random()*12);
         card.style.order = position;
     }
+}
+
+let cardsWon = [];
+
+function gameComplete() {
+if (cardsWon.length === cards.length){
+    console.log("You won");
+}
 }
 
 //contact form modal popup
