@@ -64,7 +64,7 @@ header {
 .card-selection a {
     background-color: white;
     border-radius: 30px;
-    padding: 1rem 2em;
+    padding: 1rem 2rem;
     border: 2px solid #af93eb;
 }
 
@@ -95,7 +95,34 @@ footer a:hover {
     color: #af93eb;
 }
 
-/* Cards */
+/* Card boards */
+
+#controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    align-items: center;
+}
+
+#controls i {
+    color: #af93eb;
+    background-color: white;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    border: 2px solid #af93eb;
+    font-size: 1.5rem;
+}
+
+
+#controls i:hover {
+    background-color: #af93eb;
+    color: white;
+    border: 2px solid white;
+}
+
+#new-button {
+    font-family: "Hachi Maru Pop", sans-serif;
+}
 
 .wrapper {
     padding: 6rem 0;
@@ -310,6 +337,10 @@ form input[type="submit"] {
     border-radius: 30px;
 }
 
+#new-game:hover {
+    background-color: #F7E3DA;
+}
+
 @media only screen and (max-width: 850px) {
     .cards20-board {
         width: 640px;
@@ -345,6 +376,11 @@ form input[type="submit"] {
         padding: 3rem 0;
     }
 
+    #controls i {
+        font-size: 1.3rem;
+        padding: 0.5rem 1rem;
+    }
+
     .memory-game {
         width: 440px;
         height: 440px;
@@ -378,6 +414,11 @@ form input[type="submit"] {
 
     .head-icons {
         font-size: 1.5rem;
+    }
+
+    #controls i {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
     }
 
     .memory-game {
