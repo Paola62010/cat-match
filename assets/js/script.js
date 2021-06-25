@@ -75,7 +75,12 @@ let cardsWon = [];
 
 function gameComplete() {
 if (cardsWon.length === cards.length){
-    console.log("You won");
+    let gameComplete = document.getElementById("game-complete");
+    let closeComplete = document.getElementById("close-complete");
+    gameComplete.classList.add("show");
+    closeComplete.addEventListener("click", function(){
+        gameComplete.classList.remove("show");
+    })
 }
 }
 
@@ -122,3 +127,4 @@ let closeRules = document.getElementById("close-rules");
 closeRules.addEventListener("click", function(){
     document.getElementById("game-rules").classList.remove("show");
 })
+
