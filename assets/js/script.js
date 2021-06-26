@@ -74,15 +74,16 @@ function shuffleCards() {
 let cardsWon = [];
 
 function gameComplete() {
-if (cardsWon.length === cards.length){
-    let gameComplete = document.getElementById("game-complete");
-    let closeComplete = document.getElementById("close-complete");
-    gameComplete.classList.add("show");
-    closeComplete.addEventListener("click", function(){
-        gameComplete.classList.remove("show");
-    })
-}
-}
+    setTimeout(() => {
+    if (cardsWon.length === cards.length){
+        let gameComplete = document.getElementById("game-complete");
+        let closeComplete = document.getElementById("close-complete");
+        gameComplete.classList.add("show");
+        closeComplete.addEventListener("click", function(){
+            gameComplete.classList.remove("show");
+        })
+    }}, 900);
+    }
 
 //contact form modal popup
 
@@ -116,7 +117,7 @@ myForm.addEventListener("submit", function(event) {
     myForm.classList.add("hide");
 })
 
-//contact form modal popup
+//game rules modal popup
 
 let openRules = document.getElementById("open-rules");
 openRules.addEventListener("click", function(){
