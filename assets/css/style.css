@@ -10,7 +10,11 @@
 body {
     font-family: "Hachi Maru Pop", sans-serif;
     font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
 
 h1 {
     font-size: 3rem;
@@ -51,6 +55,7 @@ header {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    flex: 1;
 }
 
 .card-selection {
