@@ -128,3 +128,19 @@ closeRules.addEventListener("click", function(){
     document.getElementById("game-rules").classList.remove("show");
 })
 
+// game music
+
+let gameMusic = document.getElementById("game-music");
+let musicOff = document.getElementById("music-off");
+musicOff.addEventListener("click", function(){
+    if (musicOff.classList.contains("fa-volume-mute")){
+        gameMusic.play();
+        musicOff.classList.remove("fa-volume-mute");
+        musicOff.classList.add("fa-volume-up")
+    }
+    else {
+        gameMusic.pause();
+        musicOff.classList.add("fa-volume-mute");
+        musicOff.classList.remove("fa-volume-up")
+    }
+})
