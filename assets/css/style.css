@@ -74,6 +74,7 @@ header {
     border-radius: 30px;
     padding: 1rem 2rem;
     border: 2px solid #af93eb;
+    color: inherit;
 }
 
 .card-selection a:hover {
@@ -88,6 +89,7 @@ header {
 
 .fun-facts h3, li {
     padding: 1.5rem;
+    list-style-type: none;
 }
 
 footer {
@@ -188,6 +190,7 @@ img {
 	background-color: white;
 	padding: 5px;
 	backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     display: block;
 }
 
