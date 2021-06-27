@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cat Match, a memory game for cat lovers">
+    <meta name="keywords" content="memory game, match pairs, cards memory game, Match Match, Match Up">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Cat Match - 20 cards</title>
 </head>
 <body>
     <header>
         <a href="index.html" class="head-icons"><i class="fas fa-home"></i></a>
-        <h1>Cat Match</h1>
+        <a href="index.html" id="logo"><h1>Cat Match</h1></a>
         <a class="head-icons" id="open-rules"><i class="fas fa-question-circle"></i></a>
         
     </header>
     <section class="wrapper">
         <div id="controls">
-            <a href="12cards.html"><i class="fas fa-paw"><span id="new-button"> New Game</span></i></a>
+            <i class="fas fa-paw" id="new-button"><span id="new-btn"> New Game</span></i>
             <i class="fas fa-volume-mute" id="music-off"></i>
         </div>
         <audio id="game-music" src="assets/audio/FunTimes-FULL.mp3" type="audio/mpeg" loop>
@@ -127,7 +129,7 @@
                 <br>
                 <label for="message">Your Message</label>
                 <br>
-                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                <textarea name="message" id="message" cols="30" rows="7" required></textarea>
                 <br>
                 <input type="submit" id="submit-message" value="Send">
                 </form>
@@ -155,7 +157,7 @@
           <div class="w3-container">
             <button id="close-complete">&times;</button>
             <p>Congratulations, you found all the mathes!</p>
-            <a href="20cards.html" id="new-game">Play Again</a>
+            <button id="new-game">Play Again</button>
           </div>
         </div>
       </div>

@@ -85,6 +85,27 @@ function gameComplete() {
     }}, 900);
     }
 
+function restart() {
+    for (card of cards) {
+    card.classList.remove("flip");
+    card.addEventListener("click", flipCard);
+    card= null;}
+    lock= false;
+    unflippedCard= true;
+    cardsWon = [];
+    setTimeout(() =>{shuffleCards();}, 500);
+    }
+
+let newGame = document.getElementById("new-game");
+newGame.addEventListener("click", function(){
+    let gameComplete = document.getElementById("game-complete");
+    gameComplete.classList.remove("show");
+    restart();
+})
+
+let newButton = document.getElementById("new-button");
+newButton.addEventListener("click", restart);
+
 //contact form modal popup
 
 let openContact = document.getElementById("contact-us");
