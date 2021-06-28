@@ -36,11 +36,11 @@ This videogame is good for children, but adults can find it challenging and stim
 
 ### Wireframe mockups
 
-[Desktop Mockups]()
+[Desktop Mockups](assets/readme-testing-images/desktop-wireframes)
 
-[Tablet Mockups]()
+[Tablet Mockups](assets/readme-testing-images/tablet-wireframes)
 
-[Mobile Mockups]()
+[Mobile Mockups](assets/readme-testing-images/mobile-wireframes)
 
 ## Features
 ---
