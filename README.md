@@ -31,7 +31,7 @@ This videogame is good for children, but adults can find it challenging and stim
 4. As a new or returning visitor, I want to be able to select the difficulty of the game by choosing the number of cards.
 5. As a new or returning visitor, I want the possibility to play music during a game. 
 6. As a new or returning visitor, I want to be able to start a new game as soon as one is complete.
-7. As a new or returning visitor, I want to be able to start a nee game even if the current one is not complete. 
+7. As a new or returning visitor, I want to be able to start a new game even if the current one is not complete. 
 8. As a returning visitor, I want the possibility to contact the videogame creator.
 
 ### Wireframe mockups
@@ -51,12 +51,12 @@ The footer of each page features a "Contact Us" link that opens a popup window w
 #### Home Page 
 
 The home page is divided into two main parts. The top part includes a call to action that invites the user to test their memory and start a game. Just below, the user can find three buttons that allow to select the number of cards they wish to have for the game. The higher the number, the more difficult the game will be. 
-The second part of the page is dedicated to a list a fun facts about cats. 
+The second part of the page is dedicated to a list of fun facts about cats. 
 
 #### 12 Cards Page 
 
 When users click on the "12 Cards" button in the home page, they will be redirected on the 12 Cards Page. This page features a card board of 12 cards that are facing down. Users will be able to flip 2 cards each turn. If the images on the cards match, the cards will remain face up, otherwise they will flip back down. Once all the matches have been found, a popup window appears to congratulate the user. The popup window contains a "Play again" button to start a new game. 
-Just above the card board, users will find two buttons. On the left a button to start a new game, this can be used also when the game is not complete. On the right there is an audio icon that allows the user to turn the music on and off. Music will play in a loop. 
+Just above the card board, users will find two buttons. On the left a button to start a new game, this can be used also when the game is not complete. On the right there is an audio icon that allows the user to turn the music on and off. When on, the music will play in a loop. 
 
 #### 16 Cards Page 
 
@@ -72,7 +72,7 @@ When users click on the "20 Cards" button in the home page, they will be redirec
 - The home icon - This exists on every page, in the header, and when clicked it redirects the user to the home page.
 - The question mark icon - This exists on every page, in the header, and when clicked it opens a popup window that contains the game rules. 
 - Footer with "Contact Us" link - This exists on every page and when clicked it opens a popup window that contains a form that the user can fill out to contact the game creator. 
-- Buttons to select number of cards - These exist on the home page an allow the user to select the number of cards for the game (12, 16 or 20). 
+- Buttons to select number of cards - These exist on the home page and allow the user to select the number of cards for the game (12, 16 or 20). 
 - Fun Facts section - This is located on the home page and lists a series of fun facts about cats. 
 - Card board - This is present in the 12 Cards Page, 16 Cards Page and 20 Cards Page. All cards are facing down until the user clicks on them. Two cars can be flipped each turn. 
 - New Game button - This is present in the 12 Cards Page, 16 Cards Page and 20 Cards Page. It allows the user to start a new game. 
@@ -94,7 +94,7 @@ This project uses Font Awesome for the icons used in the header, footer and audi
 
 ## Testing
 
-Testing information can be found in [TESTING.md]() file.
+Testing information can be found in [TESTING.md](TESTING.md) file.
 
 ## Deployment
 
@@ -134,10 +134,10 @@ https://www.purina.co.uk/articles/cats/behaviour/common-questions/fun-facts-abou
 
 ### Media 
 
-- The cats images used for the cards were taken from [Adobe Stock](https://stock.adobe.com/ie)
+- The cats images used for the cards were taken from [Adobe Stock](https://stock.adobe.com/ie).
 - The question mark image used for the back of the cards was obtained from [Pixabay](https://pixabay.com/). Credit to the image author, Gerd Altmann.
 - The background image used on all pages was obtained from [Unsplashed](https://unsplash.com/). Credit to the author, Gradienta. 
-- The audio for the game music was obtained from [HookSounds](https://www.hooksounds.com/)
+- The audio for the game music was obtained from [HookSounds](https://www.hooksounds.com/).
 
 ### Acknowledgements
 

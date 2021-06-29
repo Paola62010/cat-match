@@ -245,6 +245,10 @@ form input[type="submit"] {
     background-color: white;
     font-size: inherit;
 }
+
+#submit-message:hover {
+    background-color: #F7E3DA;
+}
   
 #close-contact {
     background-color: #FDB7B9;
