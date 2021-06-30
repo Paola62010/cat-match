@@ -39,7 +39,7 @@ User stories can be found in the UX section in the [README.md file](README.md)
 
 4. As a new or returning visitor, I want to be able to select the difficulty of the game by choosing the number of cards.
 
-    i. In the home page the user will find three buttons 
+    i. In the home page the user will find three buttons to select either 12, 16 or 20 cards.
 
 5. As a new or returning visitor, I want the possibility to play music during a game. 
 
@@ -106,6 +106,12 @@ User stories can be found in the UX section in the [README.md file](README.md)
 
 4. Checked the functionality on different size screens, content is responsive and clearly visible on all screens.
 
+#### Home Page (finished site)
+
+![Home page finished site section 1](assets/readme-testing-images/complete-home1.png)
+
+![Home page finished site section 2](assets/readme-testing-images/complete-home2.png)
+
 ### 12 Cards Page 
 
 1. Header
@@ -148,6 +154,12 @@ User stories can be found in the UX section in the [README.md file](README.md)
 
     i. Follow the same steps highlighted in the home page. 
 
+5. Checked the functionality on different size screens, content is responsive and clearly visible on all screens.
+
+#### 12 Cards Page (finished site)
+
+![12 Cards Page finished site](assets/readme-testing-images/complete-12cardspage.png)
+
 ### 16 Cards Page 
 
 1. Header
@@ -165,6 +177,12 @@ User stories can be found in the UX section in the [README.md file](README.md)
 4. Footer 
 
     i. Follow the same steps highlighted in the home page.
+
+5. Checked the functionality on different size screens, content is responsive and clearly visible on all screens.
+
+#### 16 Cards Page (finished site)
+
+![16 Cards Page finished site](assets/readme-testing-images/complete-16cardspage.png)
 
 ### 20 Cards Page 
 
@@ -184,6 +202,11 @@ User stories can be found in the UX section in the [README.md file](README.md)
 
     i. Follow the same steps highlighted in the home page.
 
+5. Checked the functionality on different size screens, content is responsive and clearly visible on all screens.
+
+#### 20 Cards Page (finished site)
+
+![20 Cards Page finished site](assets/readme-testing-images/complete-20cardspage.png)
 
 ## Additional Testing 
 

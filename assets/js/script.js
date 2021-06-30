@@ -11,6 +11,8 @@ for (let card of cards) {
     
 }
 
+/** Flips the cards in the cards board */
+
 function flipCard() {
     if (lock) return;
     if (this === cardOne) return;
@@ -28,6 +30,8 @@ function flipCard() {
 
 }
 
+/** Checks for matches */
+
 function checkMatches() {
     let match = cardOne.dataset.name === cardTwo.dataset.name;
     if (match) {
@@ -40,11 +44,15 @@ function checkMatches() {
     }
 }
 
+/** Disable cards so that they can't be flipped */
+
 function disableCard() {
     cardOne.removeEventListener("click", flipCard);
     cardTwo.removeEventListener("click", flipCard);
     resetBoard();
 }
+
+/** Unflips the cards that have been flipped */
 
 function unflipCard() {
     lock = true;
@@ -64,6 +72,8 @@ function resetBoard() {
 
 window.onload = shuffleCards()
 
+/** Adds cards in a randomized position */
+
 function shuffleCards() {
     for (let card of cards) {
         let position = Math.floor(Math.random()*12);
@@ -72,6 +82,8 @@ function shuffleCards() {
 }
 
 let cardsWon = [];
+
+/** Checks that game is complete */
 
 function gameComplete() {
     setTimeout(() => {
@@ -84,6 +96,8 @@ function gameComplete() {
         })
     }}, 900);
     }
+
+/** Starts a new game */
 
 function restart() {
     for (card of cards) {
