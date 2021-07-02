@@ -105,6 +105,10 @@ footer a:hover {
     color: #af93eb;
 }
 
+#footer-span {
+    pointer-events: none;
+}
+
 /* Card boards */
 
 #controls {
