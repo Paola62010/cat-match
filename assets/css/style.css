@@ -97,16 +97,18 @@ footer {
     padding: 1.5rem;
 }
 
-footer a {
+footer i {
     color: #60BFC1;
 }
 
-footer a:hover {
+footer i:hover {
     color: #af93eb;
 }
 
 #footer-span {
     pointer-events: none;
+    font-family: "Hachi Maru Pop", sans-serif;
+    font-size: inherit;
 }
 
 /* Card boards */
