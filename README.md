@@ -91,6 +91,8 @@ When users click on the "20 Cards" button in the home page, they will be redirec
 This project uses Google Fonts to style the text for the website. 
 - Font Awesome:
 This project uses Font Awesome for the icons used in the header, footer and audio icon.
+- favicon.io:
+This project uses favicon.io for the creation of the favicon.
 
 ## Testing
 
